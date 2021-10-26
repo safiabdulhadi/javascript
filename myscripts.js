@@ -1,4 +1,4 @@
 //Type conversions
-let x = 2 + '2';
+let x = 2 + 2 + '2';
 console.log(x);
 
