@@ -14,3 +14,6 @@ var myAge = 27;
 console.log(myAge);
 var myAge = 29;
 console.log(myAge);
+const firstName = 'Abdulhadi';
+const lastName = 'SAFI';
+console.log(firstName + lastName);
