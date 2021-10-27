@@ -17,3 +17,5 @@ console.log(myAge);
 const firstName = 'Abdulhadi';
 const lastName = 'SAFI';
 console.log(firstName + lastName);
+const country = 'Afghanistan';
+console.log(country);
