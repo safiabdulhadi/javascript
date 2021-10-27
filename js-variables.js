@@ -1,11 +1,3 @@
-//Type conversions
-//let x = 2 + 2 + '2';
-//let x = + 2 + '2';
-let q = + 2 + true; // The answer will be 3 strange haha js 
-
-console.log(q);
-
-/*
 const myName = 'abdulhadi';
 console.log(myName);
 let mySurname = 'safi';
@@ -24,4 +16,4 @@ var y = 10;
 var z = x + y;
 alert(z);
 console.log(z);
-document.write(z);*/
+document.write(z);
