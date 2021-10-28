@@ -93,4 +93,13 @@ var price1 = 5;
 var price2 = 6;
 var total = price1 + price2;
 console.log(total);
+
+// Du code dans un fichier séparé
+// délaration d'une variable
+var a;
+var b;
+var c = a + b;
+console.log(c);
 */
+var maVariable = 20;
+alert(maVariable);
