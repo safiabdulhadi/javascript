@@ -38,12 +38,17 @@ let $ = 1; // declared a variable with the name "$"
 let _ = 2; // and now a variable with the name "_"
 
 alert($ + _); // 3
-*/
+
 let $ = 1;
 let _ = 2;
 
 alert($ + _);
-
+*/
+var price1 = 5;
+var price2 = 6;
+var total = price1 + price2;
+document.getElementById("demo").innerHTML =
+"The total is: " + total;
 
 
 
