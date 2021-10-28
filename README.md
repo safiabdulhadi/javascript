@@ -1,2 +1,2 @@
 # javascript
-Learn js
+I am learning js    https://javascript.info/ 
