@@ -51,14 +51,19 @@ document.getElementById("demo").innerHTML =
 "The total is: " + total;
 num = 5;
 alert(num);
-*/
+
 
 let admin , name; // can declare two variable at once 
 
 name = "John"
 admin = name;
-alert(admin); // John
+alert(admin); // "John"
 
+var x = 5;
+var y = 6;
+var z = x + y;
+alert(z);
+*/
 
 
 
