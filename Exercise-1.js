@@ -33,4 +33,4 @@ var today = new Date();
   prepand=' AM';
   } 
   } 
-console.log("Current Time : "+hour + prepand + " : " + minute + " : " + second);
+console.log("Current Time : "+hour + prepand + " : " + minute + " : " + second); // how to add multiply
