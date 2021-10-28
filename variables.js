@@ -43,7 +43,7 @@ let $ = 1;
 let _ = 2;
 
 alert($ + _);
-*/
+
 var price1 = 5;
 var price2 = 6;
 var total = price1 + price2;
@@ -51,12 +51,20 @@ document.getElementById("demo").innerHTML =
 "The total is: " + total;
 num = 5;
 alert(num);
+*/
+
+let admin , name; // can declare two variable at once 
+
+name = "John"
+admin = name;
+alert(admin); // John
 
 
 
 
 
 
+/*
 
 const myName = 'abdulhadi';
 console.log(myName);
@@ -80,3 +88,4 @@ var price1 = 5;
 var price2 = 6;
 var total = price1 + price2;
 console.log(total);
+*/
