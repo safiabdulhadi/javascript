@@ -49,7 +49,8 @@ var price2 = 6;
 var total = price1 + price2;
 document.getElementById("demo").innerHTML =
 "The total is: " + total;
-
+num = 5;
+alert(num);
 
 
 
