@@ -12,6 +12,7 @@ A variable is a “named storage” for data. We can use variables to store good
 To create a variable in JavaScript, use the let keyword.
 
 The statement below creates (in other words: declares) a variable with the name “message”:*/
+/*
 let message1;
 message1 = 'Hello, World' // store the string 'hello' in the variable named message 
 alert(message1);
@@ -19,6 +20,29 @@ let message2;
 message2 = 'Hello';
 alert(message2);
 
+let message;
+message = 'Hello!';
+message = 'World';
+alert('message');
+
+// We can also declare two variables and copy data from one into the other.
+let hello = 'Hello world';
+let meesage;
+//copy 'Hello world ' from hello into message 
+message = hello;
+// now two variables hold the same data 
+alert (hello);// <hello world!
+alert(message);//Hello world!
+
+let $ = 1; // declared a variable with the name "$"
+let _ = 2; // and now a variable with the name "_"
+
+alert($ + _); // 3
+*/
+let $ = 1;
+let _ = 2;
+
+alert($ + _);
 
 
 
