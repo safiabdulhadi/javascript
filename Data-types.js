@@ -41,4 +41,9 @@ const number2 = 3.43;
 const results = `The number are ${number1} and ${number2}`;
 console.log(results);
 alert(results);
+
+const num1 = 5;
+const num2= 5;
+const resul = `The number are ${num1} and ${num2}`;
+console.log(resul);
 */
