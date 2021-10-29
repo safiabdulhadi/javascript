@@ -29,9 +29,16 @@ object     key-value pairs of collection of data       let student = { };
 /*
 const name = 'ram';
 const name1 = 'har';
-const result = `the names are ${name} and ${name1}`;*/
+const result = `the names are ${name} and ${name1}`;
 //strings example
 const name = 'ram';
 const name1 = "hari";
 const result = `The names are ${name} and ${name1}`;
 console.log(result);
+
+const number1 = 3;
+const number2 = 3.43;
+const results = `The number are ${number1} and ${number2}`;
+console.log(results);
+alert(results);
+*/
