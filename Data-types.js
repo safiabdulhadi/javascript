@@ -57,7 +57,19 @@ let age;
 alert(age); //
  shows "undefined"
 
-*/
+
 let name = "Ilya";
 alert(`hello ${name}`); // hello Ilya 
 alert(`hello ${1}`); // hello 1
+
+// Data Type : Numbers
+// There are 7 data types 
+// Boolenan 
+// var date = true // booleans rule // It will be true
+ var data = false;
+ if (data){
+        console.log("Booleans rule!");
+ } else{
+        console.log("Booleans ar elame.");
+ }
+ */
