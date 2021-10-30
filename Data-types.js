@@ -85,3 +85,12 @@ console.log(a);// undefined
 var num = 3.6;
 var ber = 6.4;
 console.log(num + ber); // the answer is 10 
+
+// String. ' Howdy' 
+var name = "Abdulhadi";
+console.log("hi ! My name is" + " " + name);
+// Symbol 
+var sym1 = Symbol("foo");
+var sym2 = Symbol("foo");
+console.log(sym1 === sym2); // here is false
+console.log(String(sym1) === String(sym2)); //now is true
