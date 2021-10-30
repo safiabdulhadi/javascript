@@ -73,3 +73,5 @@ alert(`hello ${1}`); // hello 1
         console.log("Booleans ar elame.");
  }
  */
+var n = null;
+console.log(n);
