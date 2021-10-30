@@ -46,7 +46,18 @@ const num1 = 5;
 const num2= 5;
 const resul = `The number are ${num1} and ${num2}`;
 console.log(resul);
-*/
+
 let name = " John";
 // embed a variable 
 alert(`The result is ${1 + 2}`); // the result is 3
+
+let isGreater = 4>1;
+alert (isGreater); // true (the comparison result is "yess")
+let age;
+alert(age); //
+ shows "undefined"
+
+*/
+let name = "Ilya";
+alert(`hello ${name}`); // hello Ilya 
+alert(`hello ${1}`); // hello 1
