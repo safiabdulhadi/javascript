@@ -76,7 +76,7 @@ alert(`hello ${1}`); // hello 1
 // null
 var n = null;
 console.log(n);
-*/
+
 // undefined
 var a;
 console.log(a + 2);// *NaN
@@ -100,3 +100,4 @@ myCar.make = "ford";
 myCar.model = "Mustang";
 
 console.log(myCar.make);// output is ford 
+*/
