@@ -94,3 +94,9 @@ var sym1 = Symbol("foo");
 var sym2 = Symbol("foo");
 console.log(sym1 === sym2); // here is false
 console.log(String(sym1) === String(sym2)); //now is true
+// Object is just a collection of properties 
+var myCar = new Object();
+myCar.make = "ford";
+myCar.model = "Mustang";
+
+console.log(myCar.make);// output is ford 
