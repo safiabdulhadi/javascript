@@ -72,6 +72,16 @@ alert(`hello ${1}`); // hello 1
  } else{
         console.log("Booleans ar elame.");
  }
- */
+ 
+// null
 var n = null;
 console.log(n);
+*/
+// undefined
+var a;
+console.log(a + 2);// *NaN
+console.log(a);// undefined 
+// number 
+var num = 3.6;
+var ber = 6.4;
+console.log(num + ber); // the answer is 10 
