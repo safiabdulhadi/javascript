@@ -110,3 +110,14 @@ const five = '5';
 console.log(five + five); // 5 is inside of the string though
 console.log(sentence);
 console.log(sentenceWithTemplate);
+// this is a comment use the slash<
+/*  */
+const skyIsblue = true;
+
+if (skyIsblue) {
+       console.log('The sky is blue');
+
+} else {
+       console.log('The sky is ...not blue?');
+}
+// is true 
