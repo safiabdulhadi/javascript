@@ -101,3 +101,11 @@ myCar.model = "Mustang";
 
 console.log(myCar.make);// output is ford 
 */
+const firstName = 'Abdulhadi'
+const lastName = 'safi'
+
+const sentence = 'Hello' + firstName + ` ` + lastName + `! how are you `;
+const sentenceWithTemplate = 'Hello ${firstName} 5 ${lastName} ! How are you !?';
+const five = '5';
+console.log(sentence);
+console.log(sentenceWithTemplate);
