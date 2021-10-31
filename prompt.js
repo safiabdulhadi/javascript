@@ -13,7 +13,7 @@ if (person != null) {
        "Hello " + person + "! How are you today?";
 }
 }
-*/
+
 function myFunction (){
        var person = prompt ("Please enter your name", "abdul hadi");
        if (person != null){ 
@@ -22,3 +22,26 @@ function myFunction (){
               
        }
 }
+*/
+
+function myFunction(){
+       var text;
+       var favDrink = prompt ("What's your favorite cocktail drink?",
+       "Daiquiri");
+       switch(favDrink){
+              case "Martini":
+                     text = "Excellent choice. Martini is good for your soul.";
+                     break;
+                     case " Daiquiri":
+                            text = "Daiquiri is my favorite too!";
+                            break;
+                            case "Cosmopolitan":
+                                   text = "Really? Are you sure the Cosmoplitan is your favorite?";
+                                   break;
+                                   default:
+                                          text = "I have never heard of that one..";
+       }
+       document.getElementById("demo").interHTML = text;
+
+}
+
