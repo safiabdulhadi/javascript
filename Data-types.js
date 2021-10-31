@@ -107,5 +107,6 @@ const lastName = 'safi'
 const sentence = 'Hello' + firstName + ` ` + lastName + `! how are you `;
 const sentenceWithTemplate = 'Hello ${firstName} 5 ${lastName} ! How are you !?';
 const five = '5';
+console.log(five + five); // 5 is inside of the string though
 console.log(sentence);
 console.log(sentenceWithTemplate);
