@@ -22,7 +22,7 @@ function myFunction (){
               
        }
 }
-*/
+
 
 function myFunction(){
        var text;
@@ -44,4 +44,5 @@ function myFunction(){
        document.getElementById("demo").interHTML = text;
 
 }
+*/
 
