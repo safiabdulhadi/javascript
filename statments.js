@@ -13,7 +13,7 @@ if (hourNow > 18 ){
 }
 document.write(greeting);
 */
-var x = 5;
-var y = 5;
+var x = 7;
+var y = 9;
 var z = x + y ;
 console.log(z);
