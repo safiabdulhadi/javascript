@@ -40,8 +40,16 @@ for (i = 0; i <3; i++){
        alert(i); //0, 1, 2
 }
 alert(i); //visible, because declared outsid of the loop
-*/
+
 let i = 0; //we have i already declared and assigned 
 for (; i < 3; i++) { // no need for "begin"
        alert(i); //0, 1, 2
 }
+*/
+let sum = 0;
+while (true) {
+       let value = +prompt ("Enter a number", '');
+       if (! value) break; //(*)
+       sum += value;
+}
+alert('sum: ' + sum);
