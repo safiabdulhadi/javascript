@@ -45,7 +45,7 @@ let i = 0; //we have i already declared and assigned
 for (; i < 3; i++) { // no need for "begin"
        alert(i); //0, 1, 2
 }
-*/
+
 let sum = 0;
 while (true) {
        let value = +prompt ("Enter a number", '');
@@ -53,3 +53,9 @@ while (true) {
        sum += value;
 }
 alert('sum: ' + sum);
+*/
+let i = 3;
+alert(i--); //show 3, decreases i to 2
+alert(i--); //show 2, descreases i to 1
+alert(i--); // show 1, descreases i to 0
+// done, while (i) check stops the loop
