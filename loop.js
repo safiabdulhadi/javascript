@@ -30,7 +30,13 @@ do{
        alert(i);
        i++;
 } while(i<3);
-*/
+
 for (let i = 0; i<3; i++){
        alert(i); //0, 1, 2
 }
+*/
+let i = 0;
+for (i = 0; i <3; i++){
+       alert(i); //0, 1, 2
+}
+alert(i); //visible, because declared outsid of the loop
