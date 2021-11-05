@@ -139,12 +139,27 @@ x = 5; // 5;
 x = "John"; // now x is a String 
 
 document.getElementById("demo").innerHTML = x;
-*/
+
 let answer1 = "It's alright";
 let answer2 = " He is called 'Jonny'";
 let answer3 = 'He is called "Jonny"';
 
 document.getElementById("demo").innerHTML = 
 answer1 + "<br>" + answer2 + "<br>" + answer3;
+
+
+let answer1 = "It's alright";
+let answer2 = "He is called Jonny";
+let answer3 = 'He is called "Jonny"';
+let total = `<br> ${answer1} <br> ${answer2} <br> ${answer3}`;
+
+document.getElementById("demo").innerHTML = total;
+*/
+let answer1 = "It's a alright"
+let answer2 = "He is called Jonney";
+let answer3 = 'He is called "Joney 2';
+let result = ` <br> ${answer1} <br> ${answer2} <br> ${answer3} `;
+console.log(result);
+document.getElementById("demo").innerHTML = result;
 
 
