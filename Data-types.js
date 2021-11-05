@@ -177,7 +177,7 @@ let z = 4;
 
 document.getElementById("demo").innerHTML = 
 (x == y) + "<br>" + (x ==z);
-*/
+
 let x = 5;
 let y = 5;
 let z = 5;
@@ -185,3 +185,13 @@ document.getElementById("demo").innerHTML =
 (x ==y) + "<br>" + (x == z);// It will be both true; 
 
 
+const cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars[0];
+console.log(cars);
+*/
+let cars = ["saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML =
+cars [0]; 
+console.log(cars);
+document.write (cars);
+window.alert(cars);
