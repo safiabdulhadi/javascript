@@ -140,5 +140,11 @@ x = "John"; // now x is a String
 
 document.getElementById("demo").innerHTML = x;
 */
+let answer1 = "It's alright";
+let answer2 = " He is called 'Jonny'";
+let answer3 = 'He is called "Jonny"';
+
+document.getElementById("demo").innerHTML = 
+answer1 + "<br>" + answer2 + "<br>" + answer3;
 
 
