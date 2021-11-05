@@ -169,8 +169,19 @@ document.getElementById("demo").innerHTML =
 x1 + "<br>" + x2 + "<br>" + x3 ;
 document.getElementById("demo").innerHTML =
 x1 + "" + x2 +  "" + x3;
+
+
+let x = 5;
+let y = 5;
+let z = 4;
+
+document.getElementById("demo").innerHTML = 
+(x == y) + "<br>" + (x ==z);
 */
-
-
+let x = 5;
+let y = 5;
+let z = 5;
+document.getElementById("demo").innerHTML = 
+(x ==y) + "<br>" + (x == z);// It will be both true; 
 
 
