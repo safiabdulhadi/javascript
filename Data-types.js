@@ -101,6 +101,7 @@ myCar.model = "Mustang";
 
 console.log(myCar.make);// output is ford 
 */
+/*
 const firstName = 'Abdulhadi'
 const lastName = 'safi'
 
@@ -111,7 +112,7 @@ console.log(five + five); // 5 is inside of the string though
 console.log(sentence);
 console.log(sentenceWithTemplate);
 // this is a comment use the slash<
-/*  */
+  
 const skyIsblue = true;
 
 if (skyIsblue) {
@@ -120,4 +121,24 @@ if (skyIsblue) {
 } else {
        console.log('The sky is ...not blue?');
 }
+
+
 // is true 
+
+let x = 16 + "Volvo";
+document.getElementById("demo").innerHTML = x;
+
+let x = 16 + "Volvo";
+document.getElementById("demo").innerHTML = x;
+
+let x = "Volvo" + 15 + 4;
+document.getElementById("demo").innerHTML = x;
+
+let x ; // now x is undefined 
+x = 5; // 5;
+x = "John"; // now x is a String 
+
+document.getElementById("demo").innerHTML = x;
+*/
+
+
