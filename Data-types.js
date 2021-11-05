@@ -154,12 +154,23 @@ let answer3 = 'He is called "Jonny"';
 let total = `<br> ${answer1} <br> ${answer2} <br> ${answer3}`;
 
 document.getElementById("demo").innerHTML = total;
-*/
+
 let answer1 = "It's a alright"
 let answer2 = "He is called Jonney";
 let answer3 = 'He is called "Joney 2';
 let result = ` <br> ${answer1} <br> ${answer2} <br> ${answer3} `;
 console.log(result);
 document.getElementById("demo").innerHTML = result;
+
+let x1 = 34;
+let x2 = 35;
+let x3 = 40;
+document.getElementById("demo").innerHTML = 
+x1 + "<br>" + x2 + "<br>" + x3 ;
+document.getElementById("demo").innerHTML =
+x1 + "" + x2 +  "" + x3;
+*/
+
+
 
 
