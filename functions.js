@@ -16,3 +16,4 @@ function showMessage () {
 alert(message);
 }
 showMessage(); // Hello , John
+showMessage();
