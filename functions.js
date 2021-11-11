@@ -9,7 +9,7 @@ function showMessage () {
 }
 
 showMessage(); // hello , I m JavaScript !
-*/
+
 let userName = 'John';
 function showMessage () {
     let message ='Hello, ' + userName;
@@ -17,3 +17,4 @@ alert(message);
 }
 showMessage(); // Hello , John
 showMessage();
+*/
