@@ -188,10 +188,17 @@ document.getElementById("demo").innerHTML =
 const cars = ["Saab", "Volvo", "BMW"];
 document.getElementById("demo").innerHTML = cars[0];
 console.log(cars);
-*/
+
 let cars = ["saab", "Volvo", "BMW"];
 document.getElementById("demo").innerHTML =
 cars [0]; 
 console.log(cars);
 document.write (cars);
 window.alert(cars);
+*/
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML
+ = fruits,
+ fruits.sort();
+ document.getElementById("demo2").innerHTML = fruits;
+ 
