@@ -58,7 +58,7 @@ let func = sayHi;
 
 func();
 sayHi();
-*/
+
 function ask (question, yes , no) {
        if (confirm (question)) yes ()
        else no ();
@@ -74,3 +74,11 @@ function showCancel() {
 }
 // utilistion : les fonctions showOk, showCancel sont transmises en tant qu'arguments à ask 
 ask ("Do you agree ?", showOk, showCancel);
+*/
+
+
+sayHi("John"); // Hello, John
+ 
+function sayHi (name) {
+       alert(`Hello , ${name}`);
+}
