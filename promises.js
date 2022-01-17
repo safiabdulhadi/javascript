@@ -1,14 +1,13 @@
-// { title: 'Post One', body: 'This is post one'},
-// { title: 'Post Two'; body: 'This is post two'}
-// ];
-// function getPosts() {
-//   setTimeout (() => {
-//   let output = '';
-//   posts.forEach((post.idex)=> {
-//     output += `<li>${post.title}</li> `;
-//   });
-//   documet.body.interHTML = output;
-// }, 1000);
-// })
-// getPosts();
-console.log('coucou');
+const btnJob = document.getElementById('btn-job');
+
+btnJob.addEventListener('click', applyToJob);
+
+function applyToJob(){
+    console.log('La décision est en cours...');
+    setTimeout(() => {
+        console.log('Vous avez le job');
+    }, 2000);
+    console.log(`Recruteur - Pendant ce temps je reçois d'autres candidats`);
+
+}
+console.log('Aprés la funciton applyToJob');
