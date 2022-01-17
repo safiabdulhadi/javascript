@@ -50,35 +50,48 @@ function sayHi() {
 alert(sayHi);
 
 function sayHi() {
-       alert("Hello");
+//        alert("Hello");
 
-}
+// }
 
-let func = sayHi;
+// let func = sayHi;
 
-func();
-sayHi();
+// func();
+// sayHi();
 
-function ask (question, yes , no) {
-       if (confirm (question)) yes ()
-       else no ();
-}
-function showOk() {
-       alert ("You agreed.")
+// function ask (question, yes , no) {
+//        if (confirm (question)) yes ()
+//        else no ();
+// }
+// function showOk() {
+//        alert ("You agreed.")
 
-}
+// }
 
-function showCancel() {
-       alert("<You canceled the excution.");
+// function showCancel() {
+//        alert("<You canceled the excution.");
      
-}
-// utilistion : les fonctions showOk, showCancel sont transmises en tant qu'arguments à ask 
-ask ("Do you agree ?", showOk, showCancel);
-*/
+// }
+// // utilistion : les fonctions showOk, showCancel sont transmises en tant qu'arguments à ask 
+// ask ("Do you agree ?", showOk, showCancel);
+// */
 
 
-sayHi("John"); // Hello, John
+// // sayHi("John"); // Hello, John
  
-function sayHi (name) {
-       alert(`Hello , ${name}`);
-}
+// // function sayHi (name) {
+// //        alert(`Hello , ${name}`);
+// // }
+// { title: 'Post One', body: 'This is post one'},
+// { title: 'Post Two'; body: 'This is post two'}
+// ];
+// function getPosts() {
+//   setTimeout (() => {
+//   let output = '';
+//   posts.forEach((post.idex)=> {
+//     output += `<li>${post.title}</li> `;
+//   });
+//   documet.body.interHTML = output;
+// }, 1000);
+// })
+// getPosts();
