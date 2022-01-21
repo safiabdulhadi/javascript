@@ -149,3 +149,38 @@ console.log(c);
 // // console.log(fruits);
 // var message = "This is a \"simple\" message";//ignore the string with helps of backword slash
 // console.log(message);
+// const msg = ` This i s"simple" string 'exmple' in ES6`;
+// console.log(msg);
+const post = {
+    title: "TechBowl Youtube Channel ",
+    body:  "Please subscribe and pres the bell icon for mre update.",
+    keywords: ["ES6","string", "template"]
+};
+
+
+
+const template = `<article> 
+<h1>${post.title} </h1>
+<section>
+<p>${post.body} </p>
+</section>
+</article>
+<footer>
+<ul>
+${post.keywords.map(keywords => `<li>${keywords} </li>`).join('\n')}
+</ul>
+</footer>`;
+document.body.innerHTML = template;
+// const template = `<article> 
+// <h1>TechBowl Youtube Channel </h1>
+// <section>
+// <p> Please subscribe and pres the bell icon for mre update.</p>
+// </section>
+// </article>
+// <footer>
+// <ul>
+// <li> ES6</li>
+// <li>string</li>
+// <li>template</li>
+// </ul>
+// </footer>`;
