@@ -38,3 +38,16 @@
 
 //     const stu2 = student2("spankajsehe", "mcehehea");
 //     console.log(stu2);
+
+
+
+// construct objext literal from local variables:
+
+//ES6
+let name = "pwan", 
+cours = "BAca";
+let student = {
+    name,
+    cours,
+};
+console.log(student);
