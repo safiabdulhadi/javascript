@@ -101,5 +101,21 @@ var b;
 var c = a + b;
 console.log(c);
 */
-var maVariable = 20;
-alert(maVariable);
+// var maVariable = 20;
+// // alert(maVariable);
+
+// {
+//     let x = 10;
+//     console.log(x);
+// }
+
+// let x = 10;
+// if ( x == 10) {
+//     let x = 50;
+//     console.log("Inside the block", x);
+// }
+// console.log("Outside the block", x);
+var a = 20;
+console.log(window.a);
+let b = 10;
+console.log(window.b);
