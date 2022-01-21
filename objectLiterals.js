@@ -44,10 +44,31 @@
 // construct objext literal from local variables:
 
 //ES6
-let name = "pwan", 
-cours = "BAca";
-let student = {
-    name,
-    cours,
+// let name = "pwan", 
+// cours = "BAca";
+// let student = {
+//     name,
+//     cours,
+// };
+// console.log(student);
+
+// computed property name
+//ES5
+// let coursename = "course";
+
+// let student = {
+//     name: "Dinesh",
+//     [coursename]: "B.Tech",
+// };
+// console.log(student);
+
+// ES6 
+
+let prefix = "student";
+let stuObj = {
+    [prefix + " name"]: "Pankaj",
+    [prefix + " course"]: "MBA", //i have to be aware of spaces
+    
 };
-console.log(student);
+console.log(stuObj["student name"]);
+console.log(stuObj ["student course"]);
