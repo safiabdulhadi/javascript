@@ -138,3 +138,9 @@ console.log(c);
 // for( let i = 0; i<= 10 ; i++) {
 //     setTimeout(() => console.log(i), i *1000);
 // }
+// const student = { age: 27};
+// student.age = 40;
+// console.log(student.age);
+const fruit = ["apple"];
+fruit.push("banana");
+console.log(fruit);
