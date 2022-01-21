@@ -115,7 +115,26 @@ console.log(c);
 //     console.log("Inside the block", x);
 // }
 // console.log("Outside the block", x);
-var a = 20;
-console.log(window.a);
-let b = 10;
-console.log(window.b);
+// var a = 20;
+// console.log(window.a);
+// let b = 10;
+// console.log(window.b);
+// ES5
+// for (var i = 0; i<5; i++) {
+//     setTimeout(function () {
+//         console.log(i);
+//     }, i * 1000);
+// }
+// Es6
+// for (let i = 0; i <= 10 ; i++) {
+//     setTimeout ( function () {
+//         console.log(i);
+//     }, i * 1000);
+// }
+
+// for (let i = 0 ; i < 5 ; i ++){
+//     setTimeout(() => console.log(i), i * 1000);
+// }
+// for( let i = 0; i<= 10 ; i++) {
+//     setTimeout(() => console.log(i), i *1000);
+// }
