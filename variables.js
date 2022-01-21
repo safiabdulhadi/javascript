@@ -151,26 +151,26 @@ console.log(c);
 // console.log(message);
 // const msg = ` This i s"simple" string 'exmple' in ES6`;
 // console.log(msg);
-const post = {
-    title: "TechBowl Youtube Channel ",
-    body:  "Please subscribe and pres the bell icon for mre update.",
-    keywords: ["ES6","string", "template"]
-};
+// const post = {
+//     title: "TechBowl Youtube Channel ",
+//     body:  "Please subscribe and pres the bell icon for mre update.",
+//     keywords: ["ES6","string", "template"]
+// };
 
 
 
-const template = `<article> 
-<h1>${post.title} </h1>
-<section>
-<p>${post.body} </p>
-</section>
-</article>
-<footer>
-<ul>
-${post.keywords.map(keywords => `<li>${keywords} </li>`).join('\n')}
-</ul>
-</footer>`;
-document.body.innerHTML = template;
+// const template = `<article> 
+// <h1>${post.title} </h1>
+// <section>
+// <p>${post.body} </p>
+// </section>
+// </article>
+// <footer>
+// <ul>
+// ${post.keywords.map(keywords => `<li>${keywords} </li>`).join('\n')}
+// </ul>
+// </footer>`;
+// document.body.innerHTML = template;
 // const template = `<article> 
 // <h1>TechBowl Youtube Channel </h1>
 // <section>
@@ -184,3 +184,25 @@ document.body.innerHTML = template;
 // <li>template</li>
 // </ul>
 // </footer>`;
+
+
+// const post = {
+//         title: "TechBowl Youtube Channel ",
+//         body:  "Please subscribe and pres the bell icon for mre update.",
+//         keywords: ["ES6","string", "template"]
+//     };
+//     const {title, body , keywords} = post;
+// //Objet destructing
+
+//     const template = `<article> 
+//     <h1>${title} </h1>
+//     <section>
+//     <p>${body} </p>
+//     </section>
+//     </article>
+//     <footer>
+//     <ul>
+//     ${keywords.map(keywords => `<li>${keywords} </li>`).join('\n')}
+//     </ul>
+//     </footer>`;
+//     document.body.innerHTML = template;
