@@ -140,7 +140,12 @@ console.log(c);
 // }
 // const student = { age: 27};
 // student.age = 40;
-// console.log(student.age);
-const fruit = ["apple"];
-fruit.push("banana");
-console.log(fruit);
+// // console.log(student.age);
+// const fruit = ["apple"];
+// fruit.push("banana");
+// console.log(fruit);
+// const fruits = ["apples", "oranges"];
+// fruits.push("bananas");
+// // console.log(fruits);
+// var message = "This is a \"simple\" message";//ignore the string with helps of backword slash
+// console.log(message);
