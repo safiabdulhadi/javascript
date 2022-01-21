@@ -207,3 +207,6 @@ console.log(c);
 //     </footer>`;
 //     document.body.innerHTML = template;
 
+// declareing variables
+// var greeting = "Welcome to TechBowl"
+// console.log(greeting);
