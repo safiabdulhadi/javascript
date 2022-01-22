@@ -210,3 +210,14 @@ console.log(c);
 // declareing variables
 // var greeting = "Welcome to TechBowl"
 // console.log(greeting);
+// function functionA (str){
+//     let result = '';
+//     for(let i = 0; i < str.length; i++) {
+//       if (!result.includes(str.charAt(i))){
+//         result += str.charAt(i);
+//       }
+//     }
+//     document.write(result);
+// //     }
+// setTimeout(() => console.log("timout log"), 0);
+// console.log("log");
