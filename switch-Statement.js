@@ -24,3 +24,5 @@ switch(day) {
                             default:
                                 console.log("Invalid Day");
 }
+let name = "this is the alert taps";
+alert(name);
