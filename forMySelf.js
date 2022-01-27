@@ -1,50 +1,39 @@
-const today = new Data();
-const day = today.getDay();
-const daylist = ["Sunday", "Monday", " Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-console.log(`Today is : ${dayList [day] }. `);
-let hours = today.geHours():
-const minute = today.getMinutes();
-const second = today.getSeconds();
-let prepand = (hours >= 12)? "PM" : "AM";
-hour = (hour >= 12)? hour - 12: hour;
-if (hour===0 && prepand==='PM')
-{
-if (minute===0 && second===0)
-{ 
-hour=12;
-prepand=' Noon';
-} 
-else
-{ 
-hour=12;
-prepand=' PM';
-} 
-} 
-if (hour===0 && prepand===' AM ') 
-{ 
-if (minute===0 && second===0)
-{ 
-hour=12;
-prepand=' Midnight';
-} 
-else
-{ 
-hour=12;
-prepand=' AM';
-} 
-} 
-console.log(`Current Time : ${hour}${prepand} : ${minute} : ${second}`);
-
-
-
-
-
-
-
-
-
-
-
+// const today = new Data();
+// const day = today.getDay();
+// const daylist = ["Sunday", "Monday", " Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+// console.log(`Today is : ${dayList [day] }. `);
+// let hours = today.geHours():
+// const minute = today.getMinutes();
+// const second = today.getSeconds();
+// let prepand = (hours >= 12)? "PM" : "AM";
+// hour = (hour >= 12)? hour - 12: hour;
+// if (hour===0 && prepand==='PM')
+// {
+// if (minute===0 && second===0)
+// { 
+// hour=12;
+// prepand=' Noon';
+// } 
+// else
+// { 
+// hour=12;
+// prepand=' PM';
+// } 
+// } 
+// if (hour===0 && prepand===' AM ') 
+// { 
+// if (minute===0 && second===0)
+// { 
+// hour=12;
+// prepand=' Midnight';
+// } 
+// else
+// { 
+// hour=12;
+// prepand=' AM';
+// } 
+// } 
+// console.log(`Current Time : ${hour}${prepand} : ${minute} : ${second}`);
 
 
 
@@ -57,3 +46,30 @@ console.log(`Current Time : ${hour}${prepand} : ${minute} : ${second}`);
 // } else {
 //        console.log("woooooo turn on the dance music!");
 // }
+
+
+// let myBook = {
+//     title: 'The Story of Tau',
+//     author: 'Will Alexander',
+//     NumberOfPages: 250,
+//     isAvailable: true
+// };
+// console.log(typeof myBook);
+
+// let myBook = {
+//     title: 'The Story of Tau',
+//     author: 'Will Alexander',
+//     numberOfPages: 250,
+//     isAailable: true 
+// };
+
+// let bookTitle = myBook.title; // The Story of Tau
+// let bookPages = myBook.numberOfPages //250
+
+// // console.log(bookTitle);
+
+// let num = 6 ;
+// console.log(typeof num + " " + num)
+
+// let num = Number("123");
+// console.log(typeof num);
