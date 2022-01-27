@@ -73,3 +73,18 @@
 
 // let num = Number("123");
 // console.log(typeof num);
+// let myBook = {
+//     title: 'The Story of Tau',
+//     author: 'Will Alexander',
+//     numberOfPages: 250,
+//     isAvailable: true
+// };
+// // console.log(myBook);
+
+// let positiveInterger = 42;
+// let negativeInterger = 43;
+// let largeDecimal = 343.33433;
+// console.log(typeof positiveInterger);
+// console.log(typeof negativeInterger);
+// console.log(typeof largeDecimal);
+// console.log(positiveInterger);
