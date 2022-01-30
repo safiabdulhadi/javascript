@@ -88,3 +88,12 @@
 // console.log(typeof negativeInterger);
 // console.log(typeof largeDecimal);
 // console.log(positiveInterger);
+
+let x = 20;
+
+if(x > 15) {
+    document.write("X is Greater")
+}
+else{
+    document.write("X is Smaller")
+}
