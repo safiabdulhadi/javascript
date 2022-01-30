@@ -97,7 +97,13 @@
 // else{
 //     document.write("X is Smaller")
 // }
-let arr1 = ['Ahmad', 'Karam', 'Javad' , 'Abdulhadi'];
-let arr2 = [90, 34, 45, 100,];
-let result = arr1.concat(arr2);
-document.write(result);
+// let arr1 = ['Ahmad', 'Karam', 'Javad' , 'Abdulhadi'];
+// let arr2 = [90, 34, 45, 100,];
+// let result = arr1.concat(arr2);
+// document.write(result);
+
+// let arr1 = ['Ahmad', 'Karam', 'Javad' , 'Abdulhadi'];
+// let arr2 = [90, 34, 45, 100,];
+// let result = arr1.join(" - ");
+// document.write(result);
+
