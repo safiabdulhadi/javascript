@@ -107,3 +107,13 @@
 // let result = arr1.join(" - ");
 // document.write(result);
 
+// let a = ["Rashid", "Ahmad", "Jan"];
+// result = a.slice();
+
+// document.write(result);
+
+
+let a = ["Rashid", "Ahmad", "Jan"];
+result = a.splice(1, 0, 'new Value');
+
+document.write(a);
