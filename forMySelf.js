@@ -113,7 +113,15 @@
 // document.write(result);
 
 
-let a = ["Rashid", "Ahmad", "Jan"];
-result = a.splice(1, 0, 'new Value');
+// let a = ["Rashid", "Ahmad", "Jan"];
+// result = a.splice(1, 0, 'new Value');
 
-document.write(a);
+// document.write(a);
+
+
+
+
+let arr1 = ['Ahmad', 'Karam', 'Javad' , 'Abdulhadi'];
+let arr2 = [90, 34, 45, 100];
+let result = arr1.indexOf('Abdulhadi');
+document.write(result);
