@@ -89,11 +89,15 @@
 // console.log(typeof largeDecimal);
 // console.log(positiveInterger);
 
-let x = 20;
+// let x = 20;
 
-if(x > 15) {
-    document.write("X is Greater")
-}
-else{
-    document.write("X is Smaller")
-}
+// if(x > 15) {
+//     document.write("X is Greater")
+// }
+// else{
+//     document.write("X is Smaller")
+// }
+let arr1 = ['Ahmad', 'Karam', 'Javad' , 'Abdulhadi'];
+let arr2 = [90, 34, 45, 100,];
+let result = arr1.concat(arr2);
+document.write(result);
