@@ -18,3 +18,14 @@ alert(message);
 showMessage(); // Hello , John
 showMessage();
 */
+function greet() {
+    console.log('Hello');
+    console.log('There');
+}
+
+greet()
+
+function greet(time, name) {
+    console.log(`Good ${time}, ${name}`);
+}
+greet('Moring', 'Alice')

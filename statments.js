@@ -17,12 +17,12 @@ document.write(greeting);
 // var y = 9;
 // var z = x + y ;
 // console.log(z);
-var result = 70;
-if(result<= 30)
-document.write("Fail");
-else if (result<= 40)
-document.write("Pass");
-else if (result<= 60)
-document.write("Good");
-else 
-document.write("Very Good");
+// var result = 70;
+// if(result<= 30)
+// document.write("Fail");
+// else if (result<= 40)
+// document.write("Pass");
+// else if (result<= 60)
+// document.write("Good");
+// else 
+// document.write("Very Good");
