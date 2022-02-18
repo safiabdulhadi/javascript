@@ -18,14 +18,15 @@ alert(message);
 showMessage(); // Hello , John
 showMessage();
 */
-function greet() {
-    console.log('Hello');
-    console.log('There');
-}
+// function greet() {
+//     console.log('Hello');
+//     console.log('There');
+// }
 
-greet()
+// greet()
 
-function greet(time, name) {
-    console.log(`Good ${time}, ${name}`);
-}
-greet('Moring', 'Alice')
+// function greet(time, name) {
+//     console.log(`Good ${time}, ${name}`);
+// }
+// greet('Moring', 'Alice')
+document.getElementById("div1").innerHTML = "Hello World";
