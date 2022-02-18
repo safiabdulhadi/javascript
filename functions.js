@@ -29,4 +29,3 @@ showMessage();
 //     console.log(`Good ${time}, ${name}`);
 // }
 // greet('Moring', 'Alice')
-document.getElementById("div1").innerHTML = "Hello World";
