@@ -43,3 +43,15 @@
 // sum = multiply(1,2);
 // document.getElementById("div1").innerHTML =" Sum = " + sum;
 
+let contact = {
+    firstName : 'abdulhadi',
+    lastName : 'Safi',
+    phoneNumber : 067859569,
+    age : 27,
+    fullName : function (){
+        return this.firstName + ' ' + this.lastName
+    }
+}
+
+// document.getElementById('div1').innerHTML = contact.firstName + " " + contact.lastName;
+document.getElementById('div1').innerHTML = contact.fullName();
