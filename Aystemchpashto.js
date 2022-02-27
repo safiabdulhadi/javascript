@@ -71,7 +71,8 @@
 // // let results = string.lastIndexOf("learn");
 
 // let string = "Let learn JavaScript Easlily";
-// let results = string.replace("learn", "practic");
-let string = "Let learn JavaScript learn Easlily";
-let results = string.replace(/learn/g, "Paratic"); // replace globally
-document.write(results);
+// // let results = string.replace("learn", "practic");
+// let string = "Let learn JavaScript learn Easlily";
+// let results = string.replace(/learn/g, "Paratic"); // replace globally
+// document.write(results);
+
