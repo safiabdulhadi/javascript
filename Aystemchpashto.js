@@ -35,6 +35,15 @@
 //     ages: 28
 // }
 
-
-
 // console.log(obj);
+
+
+let string = "Let learn JavaScript Easlily";
+let result1 = string.length;
+let str = "I love javaScript";
+let result2 = str.length;
+
+
+
+document.write(result1 + " " + "<br>");
+document.write(result2);
