@@ -43,15 +43,46 @@
 // sum = multiply(1,2);
 // document.getElementById("div1").innerHTML =" Sum = " + sum;
 
-let contact = {
-    firstName : 'abdulhadi',
-    lastName : 'Safi',
-    phoneNumber : 067859569,
-    age : 27,
-    fullName : function (){
-        return this.firstName + ' ' + this.lastName
-    }
-}
+// let contact = {
+//     firstName : 'abdulhadi',
+//     lastName : 'Safi',
+//     phoneNumber : 067859569,
+//     age : 27,
+//     fullName : function (){
+//         return this.firstName + ' ' + this.lastName
+//     }
+// }
 
 // document.getElementById('div1').innerHTML = contact.firstName + " " + contact.lastName;
-document.getElementById('div1').innerHTML = contact.fullName();
+
+// var str = "Please locate where 'locate' occurs!"
+// var pos = str.indexOf("locate");
+// var str = "Please locate where 'locate' occurs!"
+// var pos = str.indexOf("locate", 15);
+
+// var str = "Please locate where 'locate' occurs!"
+// var pos = str.search("locate");
+// var str = "Please locate where 'locate' occurs!"
+// var pos = str.slice(0,21);
+
+// var str = "Please locate where 'locate' occurs!"
+// var pos = str.slice(-15);
+
+
+// var str = "Please locate where 'locate' occurs!"
+// var pos = str.substr(5,10);
+
+// var str = "Apple, Banana, Kiwi";
+// // var res = str.substr(-4);
+
+// var str = "Please visit Microsoft!";
+// var n = str.replace("Microsoft", "W3Schools");
+
+
+// // regular expressions
+// var str = "Please locate where 'locate' occurs";
+// var pos = str.replace(/ /g, "_");
+
+
+document.getElementById('div1').innerHTML = pos;
+
