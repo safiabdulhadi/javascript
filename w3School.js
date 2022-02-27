@@ -116,6 +116,19 @@
 
 
 
+// function test(){
+//     document.getElementById('div1').innerHTML = array2;
+// }
+
+
+
+// var cars = new Array( "volvo", "BMW");
+// cars.push("Audi");
+
+
+// The pop() method removes the last element from an array
+var cars = new Array( "volvo", "BMW");
+cars.pop();
 function test(){
-    document.getElementById('div1').innerHTML = array2;
+    document.getElementById('div1').innerHTML = cars.join("-");
 }
