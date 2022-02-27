@@ -83,6 +83,39 @@
 // var str = "Please locate where 'locate' occurs";
 // var pos = str.replace(/ /g, "_");
 
+// document.getElementById('div1').innerHTML = pos;
 
-document.getElementById('div1').innerHTML = pos;
+// var text1 = "Hello" + " " + "World";
+// var text2 = "Hello".concat(" ", "World");
 
+// document.write(text1 + " <br>");
+// document.write(text2);
+
+
+// var str = "                           Hello World";
+
+// document.write(str.trim());
+
+// var str = " Hello World";
+// var test2 = "abdulhadi,safi ,abdu, haha";
+// var test3 = test2.split(',');
+// document.write(test3);
+
+// var str = "Hello World";
+
+// document.write(str[0]);
+
+// JavaScript Arrays 
+// JavaScript arrays are used to store multiple values in a single variable.
+
+
+// var array = ["ali", "Hassan", "taghi"];
+
+// var cars = new Array("Saab", "Volvo", "BMW");
+// var array2 = new Array("this is also new Array");
+
+
+
+function test(){
+    document.getElementById('div1').innerHTML = array2;
+}
