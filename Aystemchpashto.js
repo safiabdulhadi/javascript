@@ -38,12 +38,40 @@
 // console.log(obj);
 
 
-let string = "Let learn JavaScript Easlily";
-let result1 = string.length;
-let str = "I love javaScript";
-let result2 = str.length;
+// let string = "Let learn JavaScript Easlily";
+// let result1 = string.length;
+// let str = "I love javaScript";
+// let result2 = str.length;
+
+// document.write(result1 + " " + "<br>");
+// document.write(result2);
 
 
+// let string = "Let learn JavaScript Easlily";
+// let results = string.toUpperCase();
+// let string = "Let learn JavaScript Easlily";
+// let results = string.toLowerCase();
 
-document.write(result1 + " " + "<br>");
-document.write(result2);
+// let string = "Let learn JavaScript Easlily";
+// let results = string.includes("Let");//include is for true or false
+
+// let string = "Let learn JavaScript Easlily";
+// let results = string.startsWith("Let");
+// let string = "Let learn JavaScript Easlily";
+// let results = string.endsWith("Easlily");
+// let string = "Let learn JavaScript Easlily";
+// let results = string.search("learn");
+// let string = "Let learn JavaScript Easlily";
+// let results = string.match("javascript"); //its work same as search
+// let string = "Let learn JavaScript learn Easlily";
+// let results = string.match(/learn/g); // search globaly
+// let string = "Let learn JavaScript Easlily";
+// let results = string.indexOf("learn");
+// let string = "Let learn JavaScript learn Easlily";
+// // let results = string.lastIndexOf("learn");
+
+// let string = "Let learn JavaScript Easlily";
+// let results = string.replace("learn", "practic");
+let string = "Let learn JavaScript learn Easlily";
+let results = string.replace(/learn/g, "Paratic"); // replace globally
+document.write(results);
