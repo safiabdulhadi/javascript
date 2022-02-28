@@ -126,9 +126,27 @@
 // cars.push("Audi");
 
 
-// The pop() method removes the last element from an array
-var cars = new Array( "volvo", "BMW");
-cars.pop();
+// // The pop() method removes the last element from an array
+// var cars = new Array( "volvo", "BMW");
+// cars.pop();
+
+
+// var fruits = ["Banana", "Orange"," Apple", "Mango"];
+// fruits[fruits.length] = "Kiwi";
+// function test(){
+//     document.getElementById('div1').innerHTML = fruits;
+// }
+
+
+// to delete
+// var fruits = ["Banana", "Orange"," Apple", "Mango"];
+// delete fruits[0];
+// function test(){
+//     document.getElementById('div1').innerHTML = fruits;
+// }
+
+var fruits = ["Banana", "Orange"," Apple", "Mango"];
+fruits[fruits.length] = "Kiwi";
 function test(){
-    document.getElementById('div1').innerHTML = cars.join("-");
+    document.getElementById('div1').innerHTML = fruits;
 }
