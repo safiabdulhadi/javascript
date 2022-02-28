@@ -145,8 +145,56 @@
 //     document.getElementById('div1').innerHTML = fruits;
 // }
 
-var fruits = ["Banana", "Orange"," Apple", "Mango"];
-fruits[fruits.length] = "Kiwi";
-function test(){
-    document.getElementById('div1').innerHTML = fruits;
-}
+// var fruits = ["Banana", "Orange"," Apple", "Mango"];
+// fruits.splice(0, 2, "Lemon", "Kiwi")
+// function test(){
+//     document.getElementById('div1').innerHTML = fruits;
+// }
+
+// var myGirls = ["Cecilie", "Lone"];
+// var myBoys = ["Emil", "Tobias", "Linus"];
+// var MyChildren = myGirls.concat(myBoys);
+
+
+// var cars = new Array("Fiat","Volvo", "BMW");
+// var arr2 = cars.slice(2);
+
+// var fruits = ["Banana","Orange", "Apple", "Mango"];
+// fruits.sort();
+
+// let x = 123;
+// x.toString();
+
+// function test(){
+//     document.getElementById('div1').innerHTML = x;
+// }
+
+// var a = ["Rahul", "Karan", "Aman", "Neha"];
+
+// a.forEach(function(value, index){
+// // document.write(value + "<br>");
+// document.write(index +  " : " + value + "<br>");
+// });
+
+// const numbers = [45, 4, 5, 9, 16, 25];
+// let txt = "";
+// numbers.forEach(myFunction);
+// document.write(txt);
+
+// function myFunction(value, index, array) {
+ 
+//    txt += value + "<br>";
+   
+// }
+
+
+
+
+
+
+// let x = 123;
+// x.toString();
+
+// function test(){
+//     document.getElementById('div1').innerHTML = x;
+// }
