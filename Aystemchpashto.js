@@ -76,3 +76,31 @@
 // let results = string.replace(/learn/g, "Paratic"); // replace globally
 // document.write(results);
 
+// let ages = [10, 15,18, 30, 50 , 45];
+// let findAge = 18;
+
+//  let result = ages.some(check);
+
+// function check (a) {
+//     return findAge >= a;
+// }
+// document.write(result);
+
+// let ages = [10,15,18, 30,50,45];
+// let findAge = 18;
+
+//  let result = ages.findIndex(check);
+
+// function check (a) {
+//     return a >= findAge;
+// }
+// document.write(result);
+
+
+// let ages = [10,15,18, 30,50,45];
+// let findAge = 18;
+
+//  let result = ages.findIndex(function(a){
+//     return a >= findAge;
+//  });
+// document.write(result);

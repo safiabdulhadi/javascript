@@ -187,14 +187,57 @@
    
 // }
 
-
-
-
-
-
 // let x = 123;
 // x.toString();
 
 // function test(){
 //     document.getElementById('div1').innerHTML = x;
 // }
+
+// var d = new Date();
+// function test(){
+//     document.getElementById('div1').innerHTML = d;
+// }
+// var d = new Date();
+// var m = d.getFullYear()
+// var d = new Date();
+// // var m = d.getDay();
+// var days = ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"]
+// function test(){
+//     // document.getElementById('div1').innerHTML = d.getFullYear();
+//     // document.getElementById('div1').innerHTML = m;
+//     document.getElementById('div1').innerHTML = days[d.getDay()];
+// }
+
+// let a = ['Ahmad', 'mahmood', 69, 'karim'];
+
+// a.forEach(function(index,value){
+// document.write(index + " <br>" + value);
+// })
+
+ 
+
+
+
+// var d = new Date();
+// function test(){
+//     document.getElementById('div1').innerHTML = d;
+// }
+
+
+
+
+
+
+// var d = new Date();
+// d.setFullYear(2022);
+// function test(){
+//     document.getElementById('div1').innerHTML = d.getFullYear();
+// }
+
+var d = new Date();
+d.setFullYear(2022);
+function test(){
+    document.getElementById('div1').innerHTML = d.getFullYear();
+}
+

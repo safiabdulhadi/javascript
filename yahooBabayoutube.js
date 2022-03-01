@@ -35,13 +35,39 @@
 // }
 
 
-var per = 55;
+// var per = 55;
 
 
-if(per >= 80 && per <= 100) {
-document.write('');
-} else if() {
+// if(per >= 80 && per <= 100) {
+// document.write('');
+// } else if() {
 
-}else {
+// }else {
 
-}
+// }
+// var ary = [11,4,9,16];
+
+// var b = ary.map(text);
+// document.write(b);
+
+// function text(x){
+//     return x * 10;
+// }
+
+// var ary = [
+//     {fname : "yahoo", lname : "baba"},
+//     {fname : "sada", lname : "babi"},
+//     {fname : "nawid", lname : "kha"}
+// ];
+
+// var b = ary.map(text);
+// document.write(b);
+
+// function text(x){
+//     return x.fname + " " + x.lname + " " + x.fname;
+// }
+
+var str = "JavaScript is a Great Language";
+var a = str.toUpperCase();
+
+document.write(a);
