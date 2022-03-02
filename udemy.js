@@ -14,4 +14,11 @@
 // const errors = document.querySelectorAll(".error");
 
 // console.log(errors);
+// const title = document.getElementById('page-title');
+// console.log(title);
+
+// const errors = document.getElementsByClassName('error');
+// console.log(errors);
+// console.log(errors[0]);
+
 
