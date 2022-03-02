@@ -67,7 +67,27 @@
 //     return x.fname + " " + x.lname + " " + x.fname;
 // }
 
-var str = "JavaScript is a Great Language";
-var a = str.toUpperCase();
+// var str = "JavaScript is a Great Language";
+// var a = str.includes("JavaScript");
 
-document.write(a);
+// document.write(a);
+
+
+// var str = "JavaScript is a  is Great is  Language";
+// var a = str.match(/is/g);
+
+// document.write(a);
+
+// var str = "JavaScript is a Great Language";
+// var a = str.replace("JavaScript" , "Php");
+
+// document.write(a);
+
+
+// var str = "JavaScript is a Great Language";
+// var str = "                  JavaScript          ";
+
+// var a = str.trim();
+
+// alert(a);
+// document.write(a);

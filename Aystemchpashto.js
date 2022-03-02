@@ -104,3 +104,8 @@
 //     return a >= findAge;
 //  });
 // document.write(result);
+// let a = "100";
+// let a = true;
+// let a = false;
+let num = Number(a);
+document.write(num);
