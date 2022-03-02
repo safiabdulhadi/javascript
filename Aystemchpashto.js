@@ -107,5 +107,35 @@
 // let a = "100";
 // let a = true;
 // let a = false;
-let num = Number(a);
-document.write(num);
+// let a = 10.25;
+// let num = Number.parseFloat(a);
+// document.write(num);
+
+// let a = Infinity;
+// let a = 100;
+// let result = Number.isInteger(a);
+// document.write(result);
+
+// const ages = [18,45,50,80];
+
+// ages[0] = "ahmmad";
+// ages[1] = "new value";
+
+// // document.write(ages);
+// const obj = {
+//     firstName: "ahmad",
+//     lastName: "sadat",
+//     age:20
+// }
+// obj.firstName = "khan";
+// console.log(obj.firstName);
+
+// let str = '       javascript';
+// //for the spaycing
+// let str1 = str.trim();
+// console.log(str);
+// console.log(str1);
+
+// let str = "javascript ";
+// let result = String.fromCharCode(224);
+// console.log(result);
