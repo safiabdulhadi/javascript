@@ -29,7 +29,19 @@
 
 
 
-const para = document.querySelector('p');
+// const para = document.querySelector('p');
 
-// console.log(para.innerText);
-para.innerText = "add new text ";
+// // console.log(para.innerText);
+// // para.innerText = "add new text ";
+
+// const paras = document.querySelectorAll('p');
+
+// paras.forEach(para => {
+//     console.log(para.innerText);
+//     para.innerText += 'new text';
+// })
+
+const content = document.querySelector('.content');
+// console.log(content.innerHTML);
+
+content.innerHTML += '<h2> This is a new h2 </h2>';
