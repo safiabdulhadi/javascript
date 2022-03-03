@@ -146,8 +146,20 @@
 // console.log(result);
 
 
+// let result;
+
+// result = document.getElementById('id1').innerHTML = '<h1> New Text</h1>';
+
+// console.log(result);
+
+// let result;
+
+// result = document.getElementById('id1').setAttribute("class", 'abc');
+
+// console.log(result);
+
 let result;
 
-result = document.getElementById('id1').innerText = 'New Text';
+result = document.getElementById('id1').attributes[0].value = 'abc';
 
 console.log(result);
