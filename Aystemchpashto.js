@@ -139,3 +139,15 @@
 // let str = "javascript ";
 // let result = String.fromCharCode(224);
 // console.log(result);
+// let result;
+
+// result = document.getElementById('id1').innerText = 'New Text';
+
+// console.log(result);
+
+
+let result;
+
+result = document.getElementById('id1').innerText = 'New Text';
+
+console.log(result);
