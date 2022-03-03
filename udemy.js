@@ -22,3 +22,14 @@
 // console.log(errors[0]);
 
 
+// const paras = document.getElementsByTagName('p');
+// console.log(paras);
+// console.log(paras[1]);
+
+
+
+
+const para = document.querySelector('p');
+
+// console.log(para.innerText);
+para.innerText = "add new text ";
