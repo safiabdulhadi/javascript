@@ -158,8 +158,8 @@
 
 // console.log(result);
 
-let result;
+// let result;
 
-result = document.getElementById('id1').attributes[0].value = 'abc';
+// // result = document.getElementById('id1').attributes[0].value = 'abc';
 
-console.log(result);
+

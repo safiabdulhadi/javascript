@@ -91,3 +91,14 @@
 
 // alert(a);
 // document.write(a);
+
+// var a = ["sangja", "khan", "Aman", "karan"];
+// a.forEach(function(value){
+//     document.write(value);
+// });
+
+
+// var a = ['Rhaul','karan','Aman'];
+// a.forEach(function(value, index){
+//     document.write(index + " " + value + '<br>')
+// })
