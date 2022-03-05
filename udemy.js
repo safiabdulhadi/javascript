@@ -50,3 +50,14 @@
 // people.forEach(person => {
 //     content.innerHTML += `<p>${person}</p>`;
 // });
+
+const link = document.querySelector('a');
+console.log(link.getAttribute('href'));
+link.setAttribute('href', 'https://www.faceboook.com');
+link.innerText = 'Facebook';
+
+
+const messg = document.querySelector('p');
+console.log(messg.getAttribute('class'));
+messg.setAttribute('class', 'success');
+messg.setAttribute('style', 'color:green');
