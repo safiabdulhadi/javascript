@@ -115,13 +115,15 @@
 //     document.write(obj[i] + "<br>");
 // }
 
-var obj = {
-    firstName : "yahoo",
-    lastName : "Baba",
-    Age : 25,
-    email : "hello@yahoobaba.com"
-};
+// var obj = {
+//     firstName : "yahoo",
+//     lastName : "Baba",
+//     Age : 25,
+//     email : "hello@yahoobaba.com"
+// };
 
-for(var i in obj){
-    document.write(i + " : " + obj[i] + "<br>");
-}
+// for(var i in obj){
+//     document.write(i + " : " + obj[i] + "<br>");
+// }
+
+
