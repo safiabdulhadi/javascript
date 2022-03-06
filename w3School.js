@@ -235,9 +235,17 @@
 //     document.getElementById('div1').innerHTML = d.getFullYear();
 // }
 
-var d = new Date();
-d.setFullYear(2022);
-function test(){
-    document.getElementById('div1').innerHTML = d.getFullYear();
-}
+// var d = new Date();
+// d.setFullYear(2022);
+// function test(){
+//     document.getElementById('div1').innerHTML = d.getFullYear();
+// }
 
+// var d = Math.PI;
+// document.write(d);
+
+// var d = Math.round(4.6);
+// document.write(d);
+
+var d = Math.pow(4,2);
+document.write(d);
