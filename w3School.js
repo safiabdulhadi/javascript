@@ -247,5 +247,33 @@
 // var d = Math.round(4.6);
 // document.write(d);
 
-var d = Math.pow(4,2);
+// var d = Math.pow(4,2);
+// document.write(d);
+
+// var d = Math.sqrt(64);
+// document.write(d);
+
+// var d = Math.abs(64);
+// document.write(d);
+
+// var d = Math.ceil(4.4);
+// document.write(d);
+
+
+// var d = Math.floor(4.4);
+// document.write(d);
+
+
+// var d = Math.random();
+// document.write(d);
+
+
+// var d = Math.floor(Math.random() * 10);
+// document.write(d);
+
+
+// var d = Math.floor(Math.random() * 11);
+// document.write(d);
+
+var d = Math.floor(Math.random() * 100);
 document.write(d);
