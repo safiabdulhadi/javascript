@@ -275,5 +275,5 @@
 // var d = Math.floor(Math.random() * 11);
 // document.write(d);
 
-var d = Math.floor(Math.random() * 100);
-document.write(d);
+// var d = Math.floor(Math.random() * 100);
+// document.write(d);

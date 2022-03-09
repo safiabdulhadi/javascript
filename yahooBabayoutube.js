@@ -127,3 +127,13 @@
 // }
 
 
+var ary = [
+    {   fname : 'yahooo' , lname : 'baba' }
+]
+
+var ary = [11, 4 , 15, 9];
+var b = ary.map(test);
+document.write(b);
+function test(x){
+    return x * 10;
+}
