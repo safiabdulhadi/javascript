@@ -98,3 +98,9 @@
 // const title = document.querySelector('.title');
 // title.classList.toggle('test');
 // title.classList.toggle('test');
+
+
+
+var age = 14; 
+var fruits = ['orange'];
+console.log(fruits)
