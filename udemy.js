@@ -101,6 +101,14 @@
 
 
 
-var age = 14; 
-var fruits = ['orange'];
-console.log(fruits)
+// var age = 14; 
+// var fruits = ['orange'];
+// console.log(fruits)
+
+
+//Les fonctions en JavaScript 
+ 
+
+var saw_tahnks = ()=> console.log('merci');
+saw_tahnks()
+saw_tahnks()
