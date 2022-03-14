@@ -225,10 +225,6 @@
 // // }
 
 
-
-
-
-
 // // var d = new Date();
 // // d.setFullYear(2022);
 // // function test(){
@@ -312,6 +308,16 @@
 // for(x of str){
 //     text += x + "-";
 // }
+
+
+
+const cars = ["MBW", "Volvo", "Saa", "Ford", "Fiat", "Audi"];
+
+let text = "";
+for (let i = 0 ; i < cars.length; i++){
+    text += cars[i] + "<br>";
+}
+
 
 function test(){
     document.getElementById('div1').innerHTML = text ;
