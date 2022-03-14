@@ -109,18 +109,21 @@
 //Les fonctions en JavaScript 
  
 
-var saw_tahnks = ()=> console.log('merci');
-saw_tahnks()
-saw_tahnks()
+// var saw_tahnks = ()=> console.log('merci');
+// saw_tahnks()
+// saw_tahnks()
 
-var func = ()=> {
-    console.log("functions");
-};
-func()
+// var func = ()=> {
+//     console.log("functions");
+// };
+// func()
 
-var table_multiplication = () => {
-    for (let index = 1; index <11; index++){
-        console.log(` 3 x ${index} = ${index*3}`);
-    }
-}
-table_multiplication()
+// var table_multiplication = () => {
+//     for (let index = 1; index <11; index++){
+//         console.log(` 3 x ${index} = ${index*3}`);
+//     }
+// }
+// table_multiplication()
+
+
+

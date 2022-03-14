@@ -177,103 +177,142 @@
 // });
 
 // const numbers = [45, 4, 5, 9, 16, 25];
-// let txt = "";
-// numbers.forEach(myFunction);
-// document.write(txt);
+// // let txt = "";
+// // numbers.forEach(myFunction);
+// // document.write(txt);
 
-// function myFunction(value, index, array) {
+// // function myFunction(value, index, array) {
  
-//    txt += value + "<br>";
+// //    txt += value + "<br>";
    
-// }
+// // }
 
-// let x = 123;
-// x.toString();
+// // let x = 123;
+// // x.toString();
 
-// function test(){
-//     document.getElementById('div1').innerHTML = x;
-// }
+// // function test(){
+// //     document.getElementById('div1').innerHTML = x;
+// // }
 
-// var d = new Date();
-// function test(){
-//     document.getElementById('div1').innerHTML = d;
-// }
-// var d = new Date();
-// var m = d.getFullYear()
-// var d = new Date();
-// // var m = d.getDay();
-// var days = ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"]
-// function test(){
-//     // document.getElementById('div1').innerHTML = d.getFullYear();
-//     // document.getElementById('div1').innerHTML = m;
-//     document.getElementById('div1').innerHTML = days[d.getDay()];
-// }
+// // var d = new Date();
+// // function test(){
+// //     document.getElementById('div1').innerHTML = d;
+// // }
+// // var d = new Date();
+// // var m = d.getFullYear()
+// // var d = new Date();
+// // // var m = d.getDay();
+// // var days = ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"]
+// // function test(){
+// //     // document.getElementById('div1').innerHTML = d.getFullYear();
+// //     // document.getElementById('div1').innerHTML = m;
+// //     document.getElementById('div1').innerHTML = days[d.getDay()];
+// // }
 
-// let a = ['Ahmad', 'mahmood', 69, 'karim'];
+// // let a = ['Ahmad', 'mahmood', 69, 'karim'];
 
-// a.forEach(function(index,value){
-// document.write(index + " <br>" + value);
-// })
+// // a.forEach(function(index,value){
+// // document.write(index + " <br>" + value);
+// // })
 
  
 
 
 
-// var d = new Date();
-// function test(){
-//     document.getElementById('div1').innerHTML = d;
+// // var d = new Date();
+// // function test(){
+// //     document.getElementById('div1').innerHTML = d;
+// // }
+
+
+
+
+
+
+// // var d = new Date();
+// // d.setFullYear(2022);
+// // function test(){
+// //     document.getElementById('div1').innerHTML = d.getFullYear();
+// // }
+
+// // var d = new Date();
+// // d.setFullYear(2022);
+// // function test(){
+// //     document.getElementById('div1').innerHTML = d.getFullYear();
+// // }
+
+// // var d = Math.PI;
+// // document.write(d);
+
+// // var d = Math.round(4.6);
+// // document.write(d);
+
+// // var d = Math.pow(4,2);
+// // document.write(d);
+
+// // var d = Math.sqrt(64);
+// // document.write(d);
+
+// // var d = Math.abs(64);
+// // document.write(d);
+
+// // var d = Math.ceil(4.4);
+// // document.write(d);
+
+
+// // var d = Math.floor(4.4);
+// // document.write(d);
+
+
+// // var d = Math.random();
+// // document.write(d);
+
+
+// // var d = Math.floor(Math.random() * 10);
+// // document.write(d);
+
+
+// // var d = Math.floor(Math.random() * 11);
+// // document.write(d);
+
+// // var d = Math.floor(Math.random() * 100);
+// // document.write(d);
+
+
+// var arr = ['pekkan', 'bmw', 'pride', 'benz'];
+// var str = "Welcome to my website";
+// var text = "";
+
+// // for(var i = 0 ; i < arr.length ; i++){
+
+// //     if(i < arr.length -1){
+// //         text += arr[i] + "-";
+// //     } else {
+// //         text +=arr[i];
+// //     }
+
+// //     console.log(text);
+// // }
+
+
+// var text = "";
+
+// var obj = {
+//     fName : 'Abdulhadi',
+// lName : 'Safi',
+// number : '9485884'
 // }
 
+// // for ( x in obj){
+// //     text += obj [x] + "-";
+// //     console.log(x);
+// // }
 
 
-
-
-
-// var d = new Date();
-// d.setFullYear(2022);
-// function test(){
-//     document.getElementById('div1').innerHTML = d.getFullYear();
+// for(x of str){
+//     text += x + "-";
 // }
 
-// var d = new Date();
-// d.setFullYear(2022);
-// function test(){
-//     document.getElementById('div1').innerHTML = d.getFullYear();
-// }
-
-// var d = Math.PI;
-// document.write(d);
-
-// var d = Math.round(4.6);
-// document.write(d);
-
-// var d = Math.pow(4,2);
-// document.write(d);
-
-// var d = Math.sqrt(64);
-// document.write(d);
-
-// var d = Math.abs(64);
-// document.write(d);
-
-// var d = Math.ceil(4.4);
-// document.write(d);
-
-
-// var d = Math.floor(4.4);
-// document.write(d);
-
-
-// var d = Math.random();
-// document.write(d);
-
-
-// var d = Math.floor(Math.random() * 10);
-// document.write(d);
-
-
-// var d = Math.floor(Math.random() * 11);
-// document.write(d);
-
-// var d = Math.floor(Math.random() * 100);
-// document.write(d);
+function test(){
+    document.getElementById('div1').innerHTML = text ;
+}
