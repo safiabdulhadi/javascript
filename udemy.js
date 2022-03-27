@@ -126,4 +126,22 @@
 // table_multiplication()
 
 
+let user = {
+    name: 'crystal',
+    age:30,
+    email: 'crystal@thenetnigja.com,',
+    location: 'berlin',
+    blogs: ["why mas & cheese rules , 10 thing to make with marmite"]
+};
 
+console.log(user);
+console.log(user.name);
+// user.age = 35;
+console.log(user.age);
+
+console.log(user['name']);
+ 
+user['name'] = 'chu-li';
+console.log(user['name']);
+
+console.log(typeof user)
