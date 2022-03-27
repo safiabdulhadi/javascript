@@ -330,3 +330,58 @@
 // function test(){
 //     document.getElementById('div1').innerHTML = text ;
 // }
+
+// function myfunction(){
+   
+//     try{
+// aleeert('Hello');
+//     }
+//     catch (err) {
+//      document.getElementById('p00').innerHTML = err.message;
+//     }
+// }
+
+
+// function myfunction(){
+//     let data = document.getElementById('in1').value;
+   
+//         try{
+//                if(data == "") {
+//                    throw "This is Empty";
+//                }
+//                if(isNaN(data)) {
+//                    throw "This is not number";
+//                }
+//                if(data > 20) {
+//                    throw "this number is too big";
+//                }
+//                if(data <10){
+//                    throw "this  number is too small";
+//                }
+//                alert("thank you");
+//         }
+//         catch (err) {
+//     document.getElementById("p00").innerHTML = err;
+//         }
+//         finally{
+//             document.getElementById('in1').value ="";
+//         }
+//     }
+
+
+// function myfunction () {
+//     let arr = [120, 50, 90 , 40 ,10];
+    
+//     try{
+
+//         let arr2 = arr.map(newfunc)
+// document.getElementById('p00').innerHTML = arr2;
+
+//     }
+//     catch(err){
+
+//     }
+// }
+// function newfunc (val) {
+//     return val + 20;
+// }

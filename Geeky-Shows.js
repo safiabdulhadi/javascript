@@ -14,5 +14,5 @@
 // };
 // myFun3();
 
-var fees = { Rahul:100 , sumit: 200};
-document.write(fees.Rahul);
+// var fees = { Rahul:100 , sumit: 200};
+// document.write(fees.Rahul);
