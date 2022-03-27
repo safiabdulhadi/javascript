@@ -119,29 +119,65 @@
 // func()
 
 // var table_multiplication = () => {
-//     for (let index = 1; index <11; index++){
-//         console.log(` 3 x ${index} = ${index*3}`);
-//     }
-// }
-// table_multiplication()
+// //     for (let index = 1; index <11; index++){
+// //         console.log(` 3 x ${index} = ${index*3}`);
+// //     }
+// // }
+// // table_multiplication()
 
 
-let user = {
-    name: 'crystal',
-    age:30,
-    email: 'crystal@thenetnigja.com,',
-    location: 'berlin',
-    blogs: ["why mas & cheese rules , 10 thing to make with marmite"]
-};
+// // let user = {
+// //     name: 'crystal',
+// //     age:30,
+// //     email: 'crystal@thenetnigja.com,',
+// //     location: 'berlin',
+// //     blogs: ["why mas & cheese rules , 10 thing to make with marmite"]
+// // };
 
-console.log(user);
-console.log(user.name);
-// user.age = 35;
-console.log(user.age);
+// // console.log(user);
+// // console.log(user.name);
+// // // user.age = 35;
+// // console.log(user.age);
 
-console.log(user['name']);
+// // console.log(user['name']);
  
-user['name'] = 'chu-li';
-console.log(user['name']);
+// // user['name'] = 'chu-li';
+// // console.log(user['name']);
 
-console.log(typeof user)
+// // console.log(typeof user);
+
+
+
+// let user = {
+//     name: 'crystal',
+//     age:30,
+//     email: 'crystal@thenetnigja.com,',
+//     location: 'berlin',
+//     blogs: ["why mas & cheese rules , 10 thing to make with marmite"],
+//     login: function (){
+//         console.log('the user logged in');
+//     },
+//     logout: function() {
+//         console.log('the user logged out');
+//     },
+//     logBlogs: function() {
+//         // console.log(this.blogs);
+//         console.log('this user has written the following blogs:');
+//         this.blogs.forEach(blog => {
+//             console.log(blog);
+//         })
+//     }
+// };
+
+// // user.login();
+
+
+// // const name = 'mario';
+// // name.toUpperCase();
+// // console.log(name.toUpperCase());
+// // user.logout();
+
+
+// // user.logBlogs();
+// user.logBlogs();
+// console.log(this);
