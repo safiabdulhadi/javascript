@@ -311,14 +311,22 @@
 
 
 
-const cars = ["MBW", "Volvo", "Saa", "Ford", "Fiat", "Audi"];
+// const cars = ["MBW", "Volvo", "Saa", "Ford", "Fiat", "Audi"];
 
-let text = "";
-for (let i = 0 ; i < cars.length; i++){
-    text += cars[i] + "<br>";
-}
+// let text = "";
+// for (let i = 0 ; i < cars.length; i++){
+//     text += cars[i] + "<br>";
+// }
 
 
-function test(){
-    document.getElementById('div1').innerHTML = text ;
-}
+// let text = "";
+
+// for (let i = 0; i < 5 ; i++) {
+//     text += "The number is " + i + "<br>";
+// }
+
+
+
+// function test(){
+//     document.getElementById('div1').innerHTML = text ;
+// }
