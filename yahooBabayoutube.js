@@ -157,8 +157,29 @@
 
 // var total = sum(80,80,80);
 // percentage(total);
-// console.log(total);
+// // console.log(total);
 
-function hello() {
-    document.write('Hello Everyone');
+// function hello() {
+//     document.write('Hello Everyone');
+// // }
+
+
+// let r = function(ali, ahmad, khalil){
+//     let sum = ali + ahmad + khalil;
+//     return sum;
+// }
+
+// document.write( r(30, 4, 35));
+
+let welcome = function (name)  {
+    return ` Hello & Welcome ${name}`;
 }
+document.write(welcome("Yahoo Baba"));
+document.write('<br>');
+
+let arrow = (fname) => { 
+    return ` Hello and welcome ${fname}`;
+}
+
+document.write(arrow('Yahoo babas'));
+ 
