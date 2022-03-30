@@ -137,3 +137,9 @@
 // function test(x){
 //     return x * 10;
 // }
+
+
+function names(fname , lastName){
+    document.write('hello' + ' ' + fname + ' ' + lastName);
+}
+names('abdulhadi', 'safi');

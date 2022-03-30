@@ -181,3 +181,25 @@
 // // user.logBlogs();
 // user.logBlogs();
 // console.log(this);
+
+
+
+// 'use strict';
+
+// let hasDriversLicense = false;
+// const passTest = true;
+
+// if(passTest) hasDriversLicense = true;
+// if(hasDriversLicense) console.log('I can drive :D');
+
+
+
+// function logger() {
+//     console.log('My name is Abdulhadi');
+// }
+
+// // Calling / running / invoking Function / executing
+// logger();
+// logger();
+
+
