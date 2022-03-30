@@ -158,3 +158,7 @@
 // var total = sum(80,80,80);
 // percentage(total);
 // console.log(total);
+
+function hello() {
+    document.write('Hello Everyone');
+}
