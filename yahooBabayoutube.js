@@ -139,7 +139,22 @@
 // }
 
 
-function names(fname , lastName){
-    document.write('hello' + ' ' + fname + ' ' + lastName);
-}
-names('abdulhadi', 'safi');
+// function names(fname , lastName){
+//     document.write('hello' + ' ' + fname + ' ' + lastName);
+// }
+// names('abdulhadi', 'safi');
+
+
+// function sum(math,eng,sc){
+//     var s = math + eng + sc;
+//     return s;
+// }
+// function percentage(tt){
+//      var per = tt/300 * 100;
+//      document.write(per);
+//      return per;
+// }
+
+// var total = sum(80,80,80);
+// percentage(total);
+// console.log(total);
