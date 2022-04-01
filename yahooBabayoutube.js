@@ -171,15 +171,30 @@
 
 // document.write( r(30, 4, 35));
 
-let welcome = function (name)  {
-    return ` Hello & Welcome ${name}`;
-}
-document.write(welcome("Yahoo Baba"));
-document.write('<br>');
+// let welcome = function (name)  {
+//     return ` Hello & Welcome ${name}`;
+// }
+// document.write(welcome("Yahoo Baba"));
+// document.write('<br>');
 
-let arrow = (fname) => { 
-    return ` Hello and welcome ${fname}`;
-}
+// let arrow = (fname) => { 
+//     return ` Hello and welcome ${fname}`;
+// }
 
-document.write(arrow('Yahoo babas'));
+// document.write(arrow('Yahoo babas'));
+
+// let welcome = name => ` Welcome ${name}`;
+// console.log(welcome ("Yahoo Baba"));
  
+
+// let obj =  {
+//     firstName: "Yahoo",
+//     lastName: "Baba",
+//     Age: "25",
+//     email: "safiabduhadi@gamil.com"
+// };
+
+// for(let key in obj){
+//     console.log(key + ' : ' + obj[key] );
+// }
+
