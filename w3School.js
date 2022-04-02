@@ -385,3 +385,31 @@
 // function newfunc (val) {
 //     return val + 20;
 // }
+
+
+
+function myfunction() {
+    
+    let date = document.getElementById('in1').value;
+    try{
+
+    if(date == "") {
+        throw "This is sEmpty";
+
+    }
+    if(isNaN (date)) {
+        throw "This is not number";
+    }
+    if(date > 20){
+        throw "this number too big";
+    }
+    if(date < 10){
+        throw " this number too smal";
+    }
+    alert('Thank you ');
+    }
+    catch(err){
+
+        document.getElementById('p00').innerHTML = err;
+    }
+}

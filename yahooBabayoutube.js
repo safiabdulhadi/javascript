@@ -196,5 +196,15 @@
 
 // for(let key in obj){
 //     console.log(key + ' : ' + obj[key] );
-// }
+// // }
 
+// var friends = ['ahmad','khan','kako'];
+// document.write(friends[1]);
+
+// var array = ["vindo","bahadur","thapa"];
+// var length = array.length;
+// document.write(length);
+
+// var array = ["vindo","bahadur","thapa"];
+// var arraySort = array.sort();
+// document.write(arraySort);
