@@ -286,4 +286,43 @@
 
 
 
+// function sum(num1, num2) {
+// console.log(num1 + num2)
+// }
+// sum(200,300);
 
+// function sum() 
+// {
+//     let sum = 0;
+//     for(i in arguments) 
+//     {
+//          sum = sum + arguments [i];
+//     }
+//     console.log(sum)
+// }
+// sum(100,300,400,4,200);
+
+// ES6 rest operator
+
+// function sum2( name, fname,  ... args) {
+//  let sum = 0;
+//  for(let i in args) {
+
+//     sum = sum  + args[i];
+//  }
+//  console.log(`Total marks of${name} son of ${fname} ${sum} `)
+
+// } 
+// sum2("ahmmad", "sardar",200,300,20);
+
+
+// let sum2 = ( name, fname,  ... args) => {
+//     let sum = 0;
+//     for(let i in args) {
+   
+//        sum = sum  + args[i];
+//     }
+//     console.log(`Total marks of${name} son of ${fname} ${sum} `)
+   
+//    } 
+//    sum2("ahmmad", "sardar",200,300,20);
