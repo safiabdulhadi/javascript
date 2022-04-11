@@ -163,3 +163,127 @@
 // // result = document.getElementById('id1').attributes[0].value = 'abc';
 
 
+// let demo = function() {
+//     console.log("hello");
+
+// }
+// demo();
+
+// function demo1() {
+//     console.log("hello world");
+// }
+// demo1();
+
+// let demo3 = () => console.log("hello again");
+// demo3();
+
+
+// function demo() {
+//     console.log("hello");
+// }
+// demo();
+
+
+
+// let demo1 = function() {
+//     console.log("hello again");
+
+// }
+// demo1();
+
+// let demo = () => {
+//     console.log("hello");
+
+// }
+// demo();
+
+
+// function demo() {
+//     console.log("Heloo ");
+// }
+// demo();
+
+
+// let demo1 = function() {
+//     console.log("hello demo1");
+
+// }
+
+// demo1()
+
+
+// let demo2 = () => console.log("hello");
+// demo2()
+
+// let demo1 = () => { 
+//     console.log("helooo");
+// }
+// demo1()
+
+// Full function 
+// let demo = () =>  { 
+//     let name = "Ahmad" ;
+//     console.log(`hello from ${name}`);
+// }
+// demo()
+
+// let demo1 = () => {
+//     console.log("khan");
+// }
+// demo1()
+
+// let demo2 = () => console.log("khan Agha");
+// demo2()
+
+// let demo = () => {
+//     let name = "khan";
+//     console.log(`Hello ${name} `);
+// }
+// demo()
+
+// let demo1 = () => document.write("hello");
+// demo1()
+
+
+// let demo = () => {
+//     console.log("hello");
+// }
+// demo();
+
+
+// let demo2 = () => document.write("hello");
+// demo2()
+
+// let demo = (name, age) =>  document.write(name + " " + age);
+// demo("ahmad", 29)
+
+// let demo = (name, age) => console.log(`hello my name is ${name} and i am ${age} old `);
+// demo("khan", 28);
+
+// If you have only one parametter
+
+// let demo =name => console.log(name);
+// demo("ahamd ali");
+
+// let demo1 = age => console.log(age);
+// demo1(22);
+
+
+// let demo = name => console.log( name);
+// demo("kahn");
+
+// let simple = function (name) {
+//     return name;
+// }
+// console.log(simple("ahmad"));
+
+
+// let demo = name => name;
+// console.log(demo("ahmad khan wali"));
+
+// let value = name => name;
+// console.log(value("khan"));
+
+
+
+
