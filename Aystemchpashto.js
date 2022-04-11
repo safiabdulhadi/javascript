@@ -326,3 +326,102 @@
    
 //    } 
 //    sum2("ahmmad", "sardar",200,300,20);
+
+
+// let names = ["ahamd", "khan", "kamrem", "javad" ];
+ 
+//    for(let i = 0; i < names.length; i++) {
+//        console.log(names[i]);
+//    }
+
+// names.forEach(function(value){
+//     console.log(value);
+// });
+
+// names.forEach(print_array);
+
+// function print_array(value) {
+//     console.log(value);
+// }
+
+// names.forEach(function(value,index){
+//     console.log(index, + "/ " +   value)
+// });
+
+// let names = ["ahamd", "khan", "kamrem", "javad" ];
+
+// names.forEach(function(v,i){
+//     console.log(i,v);
+// });
+
+// let ages = [10,12,15,18,20,23,25];
+
+// Return true or flase
+// let result = ages.some(check);
+
+// function check(a){
+//  return a >= 18;
+// }
+// console.log(result);
+
+// let result = ages.some(function(a){
+//     return a >=18;
+// });
+// console.log(result);
+
+// return true or false but check all possible values 
+// let ages = [10,12,15,18,20,23,25,45,50];
+
+// let result = ages.every(function(a){
+//    return a >=5;
+// });
+
+// console.log(result);
+
+
+// Return the value if matched
+
+// let ages = [10,12,15,18,20,23,25];
+  
+
+//  let result = ages.find(function(a){
+//      return a >= 18;
+//  });
+ 
+//  console.log(result);
+
+// Return Index number if match 3 
+// let ages = [10,12,15,18,20,23,25];
+
+// let result = ages.findIndex(function(a){
+
+//      return a >=18;
+// });
+// console.log(result)
+
+// Return array of matched values 
+
+// let ages = [10,12,15,18,20,23,25];
+
+// let result = ages.filter(function(a){
+// return a >=18;
+// });
+
+// console.log(result);
+
+
+// let ages = [10,12,15,18,20,23,25];
+
+// // let r =ages.filter(function(a){
+// // return a >=18;
+// // });
+// // // console.log(r);
+// // document.write(r);
+
+// let r = ages.filter(k);
+//  function k (a) 
+//  {
+//      return a >=18;
+//  }
+// //  console.log(r);
+// document.write(r);
