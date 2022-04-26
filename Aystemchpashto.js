@@ -425,3 +425,21 @@
 //  }
 // //  console.log(r);
 // document.write(r);
+// 
+
+
+
+// let text = "";
+// const fruits = ["apple", "orange","cherry" ];
+// fruits.forEach(myFunction);
+// document.getElementById("demo").innerHTML = text;
+// function myFunction(item, index) {
+//     text += index + ": " + item + "<br>";
+// }
+
+// let fruit = ["apple","orange", "anar", "banana" ];
+// fruit.forEach(check);
+// function check(item, index) {
+//    console.log(item, index)
+
+// }
