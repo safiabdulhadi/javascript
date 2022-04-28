@@ -88,3 +88,40 @@
 // },0);
 
 // console.log('End');
+
+// DOM manipulation Document object model
+// 1 getElementById
+
+// const heading = document.getElementById('heading');
+// console.log(heading);
+
+// getElementsByTagName
+// const heading = document.getElementsByTagName('h1');
+// console.log(heading);
+
+// getElemetByClassName
+
+// const heading = document.getElementsByClassName('heading');
+// console.log(heading);
+
+// querySelector
+// const heading = document.querySelector('#heading');
+// const heading = document.querySelector('.heading');
+// console.log(heading);
+
+// querySelectorAll
+
+// const heading = document.querySelectorAll('.heading');
+// console.log(heading);
+
+// Traverse DOM
+// const heading = document.querySelector('.heading');
+// const parent = heading.parentNode;
+// console.log(parent);
+
+// childrenNodes
+
+// const parent = document.querySelector('.parent');
+// console.log(parent.childNodes);
+// const child = parent.childNodes;
+// console.log(child);
