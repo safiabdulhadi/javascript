@@ -125,3 +125,33 @@
 // console.log(parent.childNodes);
 // const child = parent.childNodes;
 // console.log(child);
+
+
+// for(let i = 1; i <= 10; i++) {
+//     let num = 2;
+//     document.write(i + ' x ' +  num + ' = ' +  num* i  + '<br>');
+// }
+
+// for(let i = 1; i <= 10 ; i++) {
+//     let num = 3;
+//     document.write(i + ' x ' + num + ' = ' + num * i + '<br>')
+// }
+// let num = 5;
+
+// for(let i = 1; i <= 10 ; i++) {
+//     document.write(i + ' x ' + num + ' = ' +  num*i + '<br>');
+// }
+// // let num = 2;
+// for(let i = 1 ; i <= 10; i ++ ) {
+//     for(let j = 1; j <= 10; j++) {
+//         document.write(j  + ' x ' + i + ' = '  + i*j + '<br>');
+//     }
+//     document.write('<hr>')
+// }
+
+
+// for(let i = 1; i <= 10; i++) {
+//     for(let j = 1; j <= 10; j++) {
+//         document.write(j + ' x ' + j + " = " + i*j + '<br>');
+//     }
+// }
