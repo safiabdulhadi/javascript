@@ -208,3 +208,17 @@
 // var array = ["vindo","bahadur","thapa"];
 // var arraySort = array.sort();
 // document.write(arraySort);
+
+  try{
+      console.log('Start of Try');
+ 
+       blablablabala;
+
+
+      console.log('End of Try');
+
+  } catch{
+      console.log('Errow has occurred');
+
+
+  }
