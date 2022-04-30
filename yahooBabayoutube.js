@@ -209,16 +209,45 @@
 // var arraySort = array.sort();
 // document.write(arraySort);
 
-  try{
-      console.log('Start of Try');
+//   try{
+//     //   console.log('Start of Try');
+//     setTimeout(function(){
+//      blalalalalal;
+//     },5000);
  
-       blablablabala;
+//     //    blablablabala;
 
 
-      console.log('End of Try');
+//       console.log('End of Try');
 
-  } catch{
-      console.log('Errow has occurred');
+//   } catch(error){
+//       console.log('Errow has occurred');
+//     // console.log(error);
 
 
-  }
+//   }
+
+        //   console.log('Start of Try');
+        // setTimeout(function(){
+        //     try{
+        //  blalalalalal;
+        //   } catch(error){ 
+        //    console.log('Error has occurred.');
+           
+        //   } 
+        // },5000);
+
+
+
+        // try{
+        //     blalala;
+        //      } catch(error){ 
+        //     //   console.log('Error has occurred.');
+            
+        //     // console.log(error.name);
+        //     // console.log(error.message);
+        //     // console.log(error.stack);
+
+        //     console.log(error.message);
+        //      } 
+    
