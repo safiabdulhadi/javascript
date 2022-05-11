@@ -251,3 +251,24 @@
         //     console.log(error.message);
         //      } 
     
+        // class hello {
+        //         message(){
+        //                 console.log("Hello Everyone");
+        //         }
+        //         sorry(){
+        //                 console.log("Sorry Everyone");
+        //         }
+        // }
+        // let a = new hello();
+        // a.message();
+        // // a.sorry();
+
+        // class student{
+                
+        // constructor(){
+        //         console.log("hello world");
+        // }
+        // }
+
+        // a = new student();
+        // b = new student();
