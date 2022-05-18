@@ -302,8 +302,8 @@
 // content.innerHTML += '<h1> This is a h1 heading </h1>';
 // console.log(content);
 
-const content = document.querySelector('.content');
-const people = ['mario', 'luigi', 'yoshi'];
-people.forEach(person => {
-    content.innerHTML += `<p>${person} </p>`;
-});
+// const content = document.querySelector('.content');
+// const people = ['mario', 'luigi', 'yoshi'];
+// people.forEach(person => {
+//     content.innerHTML += `<p>${person} </p>`;
+// });
