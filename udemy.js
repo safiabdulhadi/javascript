@@ -279,3 +279,31 @@
 // const random = Math.random();
 // console.log(random);
 // console.log(Math.round(random * 100));
+
+// const para = document.querySelector('p');
+
+// console.log(para.innerText);
+// para.innerText = ' Hello there!';
+// para.innerText += ' Hello there!';
+
+
+// const paras = document.querySelectorAll('p');
+
+// paras.forEach(para => {
+//     para.innerHTML += ' new text';
+//     // para.innerHTML = ' new text';
+//     console.log(para.innerText);
+// })
+
+
+// const content = document.querySelector('.content');
+// console.log(content.innerHTML);
+// content.innerHTML = '<h1> This is a h1 heading </h1>';
+// content.innerHTML += '<h1> This is a h1 heading </h1>';
+// console.log(content);
+
+const content = document.querySelector('.content');
+const people = ['mario', 'luigi', 'yoshi'];
+people.forEach(person => {
+    content.innerHTML += `<p>${person} </p>`;
+});

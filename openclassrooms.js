@@ -41,10 +41,10 @@
 // }
 
 
-let numberOFSeats = true;
-let numberOfGuests = 1;
-if(numberOFSeats == numberOfGuests) {
-    console.log('They are equal!');
-} else {
-    console.log("They are not equal!");
-}
+// let numberOFSeats = true;
+// let numberOfGuests = 1;
+// if(numberOFSeats == numberOfGuests) {
+//     console.log('They are equal!');
+// } else {
+//     console.log("They are not equal!");
+// }
