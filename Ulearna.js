@@ -66,3 +66,8 @@
 
 
 // console.log(message);
+
+// Nulish, PHP (Null safe operator)
+
+// let user;
+// console.log(user ?? 'Abdulhadi');
