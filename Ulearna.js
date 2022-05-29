@@ -32,13 +32,37 @@
 //     console.log('Condition is true');
 // }
 
-let year = 2022;
-if (year == 2023) {
-    console.log('the year is matched');
-}
-else if (year == 2022) {
-    console.log('the year is matched');
-}
-else {
-    console.log('the year is is matched to 2023');
-}
+// let year = 2022;
+// if (year == 2023) {
+//     console.log('the year is matched');
+// }
+// else if (year == 2022) {
+//     console.log('the year is matched');
+// }
+// else {
+//     console.log('the year is is matched to 2023');
+// }
+
+// if(1) {
+//     console.log('Boolean value is true')
+// }
+// else {
+//     console.log('Boolean false')
+// }
+
+
+// let year = 2022;
+
+// let newYear = year == 2021 ? 'Matched' : 'Note Matched';
+
+// console.log(newYear)
+
+// let age = prompt('age?', 18);
+
+// let message = (age < 3) ? 'Hi, baby' :
+// (age < 18) ? 'Hello!' :
+// (age < 50) ? 'Greetings !' :
+// 'What an unusual age';
+
+
+// console.log(message);
