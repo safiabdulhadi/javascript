@@ -71,3 +71,27 @@
 
 // let user;
 // console.log(user ?? 'Abdulhadi');
+
+// let version = 18;
+
+// switch(version) {
+//     case 17:
+//         console.log(17);
+//         break;
+//         case 18:
+//             console.log(18);
+//             break;
+//             default:
+//                 console.log('Nothing Matched');
+// }
+
+// let name = 'ahamad';
+
+// switch(name){
+//     case 'Abdulhadi':
+//         console.log("yes this  is correct");
+//         break;
+//         case 'ahamad':
+//             console.log('No this is not correct');
+//             break;
+// }
