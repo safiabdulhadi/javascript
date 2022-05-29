@@ -26,5 +26,13 @@
 // alert(`You are ${age} years old!`); // You are 100 years old!
 
 
-let age = prompt("How are you", "");
-console.log(`${age}`);
+// let age = prompt("How are you", "");
+// console.log(`${age}`);
+// if(2==2) {
+//     console.log('Condition is true');
+// }
+
+let year = 2022;
+if(year == 2022) {
+    console.log('that is matched');
+}
