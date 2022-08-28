@@ -54,8 +54,54 @@ while (true) {
 }
 alert('sum: ' + sum);
 */
-let i = 3;
-alert(i--); //show 3, decreases i to 2
-alert(i--); //show 2, descreases i to 1
-alert(i--); // show 1, descreases i to 0
+// let i = 3;
+// alert(i--); //show 3, decreases i to 2
+// alert(i--); //show 2, descreases i to 1
+// alert(i--); // show 1, descreases i to 0
 // done, while (i) check stops the loop
+
+// for (let i = 1; i <= 10; i++) {
+//     //     console.log(i)
+//     console.log(` 2 x ${i} = ${2 * i }`);
+// }
+
+
+// Function
+
+// function mulTable() {
+
+//     for (let i = 1; i <= 10; i++) {
+//         //     console.log(i)
+//         console.log(` 2 x ${i} = ${3 * i }`);
+//     }
+// }
+// mulTable();
+
+
+// function mulTable(num) {
+//     for (i = 0; i <= 10; i++) {
+//         //     console.log(i)
+//         console.log(` 2 x ${num} = ${num * i }`);
+//     }
+// }
+// mulTable(2);
+
+// mulTable(3);
+
+
+// let multiTables = (num) => {
+//     for (i = 0; i <= 10; i++) {
+//         console.log(` 2 x ${num} = ${num * i }`);
+//     }
+// }
+// multiTables(2);
+// multiTables(3);
+
+function addiction(n) {
+    total = 0;
+    for (let i = 1; i <= n; i++) {
+        total += i;
+    }
+    return total;
+}
+console.log(addiction(2));
